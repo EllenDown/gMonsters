@@ -4,12 +4,14 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { MonstersComponent } from './monsters/monsters.component';
+import { MonsterComponent } from './monsters/monster/monster.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    MonstersComponent
+    MonstersComponent,
+    MonsterComponent
   ],
   imports: [
     BrowserModule
